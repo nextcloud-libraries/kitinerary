@@ -9,5 +9,12 @@
             "email": "christoph@winzerhof-wurst.at"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChristophWurst\\KItinerary\\": "/src"
+        }
+    }
 }
