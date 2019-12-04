@@ -25,9 +25,10 @@ declare(strict_types=1);
 
 namespace ChristophWurst\KItinerary;
 
+use Countable;
 use JsonSerializable;
 
-class Itinerary implements JsonSerializable {
+class Itinerary implements Countable, JsonSerializable {
 
 	/** @var array */
 	private $entries;
@@ -42,6 +43,10 @@ class Itinerary implements JsonSerializable {
 
 	public function merge(Itinerary $other): self {
 		return new self(array_merge($this->entries, $other->entries));
+	}
+
+	public function count() {
+		return count($this->entries);
 	}
 
 	public function jsonSerialize() {
