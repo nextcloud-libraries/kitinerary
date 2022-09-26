@@ -38,4 +38,11 @@ interface Adapter
 	 */
 	public function extractFromString(string $source): array;
 
+	/**
+	 * @param string $source
+	 * @return string ics/ical event
+	 * @throws KItineraryRuntimeException
+	 */
+	public function extractIcalFromString(string $source): string;
+
 }
