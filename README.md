@@ -14,7 +14,7 @@ composer require christophwurst/kitinerary
 use ChristophWurst\KItinerary\ItineraryExtractor;
 use ChristophWurst\KItinerary\Exception\KItineraryRuntimeException;
 
-$extractor = new Extractor(/* adapter instance */);
+$extractor = new ItineraryExtractor(/* adapter instance */);
 
 try {
     $itinerary = $extractor->extractFromString('...');
