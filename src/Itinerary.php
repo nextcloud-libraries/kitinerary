@@ -45,10 +45,11 @@ class Itinerary implements Countable, JsonSerializable {
 		return new self(array_merge($this->entries, $other->entries));
 	}
 
-	public function count() {
+	public function count(): int {
 		return count($this->entries);
 	}
 
+	#[ReturnTypeWillChange]
 	public function jsonSerialize() {
 		return $this->entries;
 	}
