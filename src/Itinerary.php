@@ -27,6 +27,7 @@ namespace ChristophWurst\KItinerary;
 
 use Countable;
 use JsonSerializable;
+use ReturnTypeWillChange;
 
 class Itinerary implements Countable, JsonSerializable {
 
