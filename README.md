@@ -5,14 +5,14 @@
 ## Installation
 
 ```sh
-composer require christophwurst/kitinerary
+composer require nextcloud/kitinerary
 ```
 
 ## Usage
 
 ```php
-use ChristophWurst\KItinerary\ItineraryExtractor;
-use ChristophWurst\KItinerary\Exception\KItineraryRuntimeException;
+use Nextcloud\KItinerary\ItineraryExtractor;
+use Nextcloud\KItinerary\Exception\KItineraryRuntimeException;
 
 $extractor = new ItineraryExtractor(/* adapter instance */);
 
