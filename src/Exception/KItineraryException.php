@@ -23,7 +23,7 @@
 
 declare(strict_types=1);
 
-namespace ChristophWurst\KItinerary\Exception;
+namespace Nextcloud\KItinerary\Exception;
 
 use Exception;
 

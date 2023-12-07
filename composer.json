@@ -1,5 +1,5 @@
 {
-    "name": "christophwurst/kitinerary",
+    "name": "nextcloud/kitinerary",
     "description": "KItinerary adapter",
     "type": "library",
     "license": "AGPL-3.0-or-later",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ChristophWurst\\KItinerary\\": "/src"
+            "Nextcloud\\KItinerary\\": "/src"
         }
     }
 }

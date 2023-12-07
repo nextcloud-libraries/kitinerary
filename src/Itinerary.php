@@ -23,7 +23,7 @@
 
 declare(strict_types=1);
 
-namespace ChristophWurst\KItinerary;
+namespace Nextcloud\KItinerary;
 
 use Countable;
 use JsonSerializable;

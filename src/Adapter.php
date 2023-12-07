@@ -23,9 +23,9 @@
 
 declare(strict_types=1);
 
-namespace ChristophWurst\KItinerary;
+namespace Nextcloud\KItinerary;
 
-use ChristophWurst\KItinerary\Exception\KItineraryRuntimeException;
+use Nextcloud\KItinerary\Exception\KItineraryRuntimeException;
 
 interface Adapter
 {
